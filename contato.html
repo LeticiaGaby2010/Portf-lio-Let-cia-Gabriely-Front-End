@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contato - Letícia Gabriely</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<a href="index.html" class="logo">
+<span>Letícia</span> Gabriely
+</a>
+
+<button class="menu-btn" id="menuBtn">
+☰
+</button>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="index.html">Início</a></li>
+
+<li><a href="projetos.html">Projetos</a></li>
+
+<li><a href="experiencias.html">Experiências</a></li>
+
+<li><a href="habilidades.html">Habilidades</a></li>
+
+<li><a href="contato.html">Contato</a></li>
+
+</ul>
+
+<button id="themeBtn" class="theme-btn">
+☀️
+</button>
+
+</nav>
+
+</header>
+
+
+<main>
+
+<section class="contact-section">
+
+<h1><span>CONTATO</span></h1>
+
+
+<form id="contactForm" class="contact-form">
+
+
+<div class="form-group">
+
+<label for="nome">
+Nome:
+</label>
+
+<input
+type="text"
+id="nome"
+name="nome"
+placeholder="Digite seu nome"
+required
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="email">
+E-mail:
+</label>
+
+<input
+type="email"
+id="email"
+name="email"
+placeholder="Digite seu e-mail"
+required
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="telefone">
+Telefone:
+</label>
+
+<input
+type="text"
+id="telefone"
+name="telefone"
+placeholder="(00) 00000-0000"
+maxlength="15"
+required
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="cpf">
+CPF:
+</label>
+
+<input
+type="text"
+id="cpf"
+name="cpf"
+placeholder="000.000.000-00"
+maxlength="14"
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="data">
+Data:
+</label>
+
+<input
+type="text"
+id="data"
+name="data"
+placeholder="00/00/0000"
+maxlength="10"
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="mensagem">
+Mensagem:
+</label>
+
+<textarea
+id="mensagem"
+name="mensagem"
+rows="6"
+placeholder="Digite sua mensagem"
+required
+></textarea>
+
+</div>
+
+
+<button
+type="submit"
+class="btn submit-btn"
+>
+ENVIAR
+</button>
+
+
+</form>
+
+</section>
+
+</main>
+
+
+
+<div class="modal" id="formModal">
+
+<div class="modal-content">
+
+<button
+class="close-modal"
+id="closeFormModal"
+>
+×
+</button>
+
+<h2>Mensagem enviada! ❤️</h2>
+
+<p>
+Obrigada pelo contato!
+Sua mensagem foi registrada.
+</p>
+
+<button
+class="btn"
+id="formModalOk"
+>
+OK
+</button>
+
+</div>
+
+</div>
+
+
+<footer>
+
+<p>@leticia_gabysoaress</p>
+
+<p>leticiagabysoaress@gmail.com</p>
+
+<p>+55 31 99619-1410</p>
+
+</footer>
+
+
+<button id="topBtn" class="top-btn">
+↑
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
